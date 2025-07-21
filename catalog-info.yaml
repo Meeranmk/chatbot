@@ -4,6 +4,7 @@ metadata:
   name: sysco
   description: Sysco Corporation (SYY) is the world's largest broadline food distributor
   backstage.io/techdocs-ref: dir:.
+  github.com/project-slug: kezri29/python-app
 spec:
   type: service
   lifecycle: development
