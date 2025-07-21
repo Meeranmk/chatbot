@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sysco
+  description: Sysco Corporation (SYY) is the world's largest broadline food distributor
+spec:
+  type: service
+  lifecycle: development
+  owner: prodapt
+  system: artist-engagement-portal
+  dependsOn:
+    - resource:default/artists-db
+  dependencyOf:
+    - component:default/artist-web-lookup
+  providesApis:
+    - artist-api
